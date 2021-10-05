@@ -1,6 +1,6 @@
 module.exports = {
   Admins: ["710144357193220126", "UserID"], //Admins of the bot
-  ExpressServer: false,//If you wanted to make the website run or not
+  ExpressServer: true,//If you wanted to make the website run or not
   DefaultPrefix: process.env.Prefix || "!", //Default prefix, Server Admins can change the prefix
   Port: 3000, //Which port website gonna be hosted
   SupportServer: "https://www.youtube.com/watch?v=dQw4w9WgXcQ", //Support Server Link
