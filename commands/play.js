@@ -32,7 +32,7 @@ module.exports = {
             guild: message.guild.id,
             voiceChannel: message.member.voice.channel.id,
             textChannel: message.channel.id,
-            selfDeafen: false,
+            selfDeafen: true,
         });
 
         let SongAddedEmbed = new MessageEmbed().setColor(client.botconfig.EmbedColor);
@@ -134,10 +134,9 @@ module.exports = {
                 guild: interaction.guild_id,
                 voiceChannel: voiceChannel.id,
                 textChannel: interaction.channel_id,
-                selfDeafen: false,
+                selfDeafen: true,
             });
             if (player.state != "CONNECTED") await player.connect();
-			player.voice.setSelfDeaf(true);
             let search = interaction.data.options[0].value;
             let res;
 
