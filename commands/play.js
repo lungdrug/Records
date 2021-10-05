@@ -137,6 +137,7 @@ module.exports = {
                 selfDeafen: false,
             });
             if (player.state != "CONNECTED") await player.connect();
+			player.voice.setSelfDeaf(true);
             let search = interaction.data.options[0].value;
             let res;
 
