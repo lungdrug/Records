@@ -10,12 +10,12 @@ module.exports = {
   Scopes: ["identify", "guilds", "applications.commands"], //Discord OAuth2 Scopes
   CallbackURL: "/api/callback", //Discord OAuth2 Callback URL
   "24/7": false, //If you want the bot to be stay in the vc 24/7
-  CookieSecret: "Pikachu is cutess", //A Secret like a password
+  CookieSecret: "RecordsBotPass", //A Secret like a password
   IconURL:
-    "https://i.imgur.com/pkYu3XY.gif", //URL of all embed author icons | Dont edit unless you dont need that Music CD Spining
+    "https://i.imgur.com/sXUfM6C.gif", //URL of all embed author icons | Dont edit unless you dont need that Music CD Spining
   EmbedColor: "RANDOM", //Color of most embeds | Dont edit unless you want a specific color instead of a random one each time
   Permissions: 2205280576, //Bot Inviting Permissions
-  Website: process.env.Website || "http://recordsbot.herokuapp.com", //Website where it was hosted at includes http or https || Use "0.0.0.0" if you using Heroku
+  Website: process.env.Website || "", //Website where it was hosted at includes http or https || Use "0.0.0.0" if you using Heroku
 
   //Lavalink
    Lavalink: {
