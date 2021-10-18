@@ -111,3 +111,6 @@ dist
 dev-config.js
 a.js
 guild.json
+package.json
+package-lock.json
+package.json
