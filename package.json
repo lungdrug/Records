@@ -22,12 +22,12 @@
     "music",
     "discord-music"
   ],
-  "author": "SudhanPlayz",
+  "author": "",
   "license": "SEE LICENSE IN LICENSE",
   "bugs": {
-    "url": "https://github.com/SudhanPlayz/Discord-MusicBot/issues"
+    "url": ""
   },
-  "homepage": "https://github.com/SudhanPlayz/Discord-MusicBot#readme",
+  "homepage": "",
   "dependencies": {
     "colors": "^1.4.0",
     "cpu-stat": "^2.0.1",
