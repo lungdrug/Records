@@ -1,4 +1,4 @@
-{
+ {
   "name": "discord-musicbot",
   "version": "4.1.4",
   "description": "Very simple discord music bot with the discord.js with Song Name playing. It can able to play music with the song name",
@@ -50,6 +50,7 @@
     "pretty-ms": "^7.0.1",
     "socket.io": "^4.0.1",
     "winston": "^3.3.3"
+	"slash-create": "^4.3.0"
   },
   "devDependencies": {
     "prettier": "2.4.1"
