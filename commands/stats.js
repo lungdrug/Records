@@ -29,7 +29,7 @@ module.exports = {
 
             const embed = new MessageEmbed()
             embed.setColor(client.botconfig.EmbedColor)
-            embed.setTitle(`Stats from \`${client.user.username}\``)
+            embed.setTitle(`Stats from Records`)
             embed.addFields({
                 name: ':ping_pong: Ping',
                 value: `┕\`${Math.round(client.ws.ping)}ms\``,
