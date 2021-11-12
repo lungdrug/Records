@@ -14,7 +14,6 @@
 	"type": "git",
 	"url": "git+https://github.com/Snazzah/slash-create.git"
   },
-  "engines": {
     "node": "14.x"
   },
   "keywords": [
