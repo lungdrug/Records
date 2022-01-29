@@ -1,6 +1,6 @@
-const DiscordMusicBot = require("./structures/DiscordMusicBot");
-const client = new DiscordMusicBot();
+const MainClient = require("./nanospace");
+const client = new MainClient();
 
-client.build();
+client.connect()
 
-module.exports = client; //;-;
+module.exports = client; 
